@@ -1,9 +1,19 @@
 Will all go through my Spotify Account
 1. User Accounts Plan
-
- - Admin User -> Can modify play queue, Can skip tracks, Can Approve/Disprove songs?, Can pick playlist to play from when we run out of songs
- - Trusted User -> Can modify play queue, Can skip tracks
- - Un-authenticated User -> Can add tracks to play queue
+ - Admin User (authenticated) -> 
+     - Can add or remove Host Users
+     - All priviliges of Host User
+ - Host User (authenticated) -> 
+     - Can Approve/Disprove songs?
+     - Can pick playlist to play from when we run out of songs
+     - Can add or remove Trusted Users?
+     - All priviliges of Trusted User
+ - Trusted User (authenticated) -> 
+     - Can modify play queue
+     - Can skip tracks
+     - All priviliges of Guest User
+ - Guest User (authenticated/unauthenticated) ->
+     - Can add tracks to play queue
  
  2. Layout Plan
  
